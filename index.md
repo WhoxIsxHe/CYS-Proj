@@ -7,7 +7,7 @@ SOC:
   - Intrusion Detection System (IDS) using Snort
   - VPN configuration using OpenVPN
   - Developing and testing firewall rules
-  - Implementing Access Control Lists (ACLs)
+  - Implementing Access ControlLists (ACLs)
   - Network monitoring with Juniper's tools
   - Developing and enforcing security policies
   - SIEM integration with Juniper routers
