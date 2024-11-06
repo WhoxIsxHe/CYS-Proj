@@ -1,123 +1,120 @@
----
-layout: default
----
+# Components of the project with syntax highlighting for YAML.
+SOC:
+  - Deployment of a SIEM system
+  - Setting up a threat intelligence feed
+  - Real-time monitoring and response
+  - Network segmentation using Juniper EX2200-C
+  - Intrusion Detection System (IDS) using Snort
+  - VPN configuration using OpenVPN
+  - Developing and testing firewall rules
+  - Implementing Access Control Lists (ACLs)
+  - Network monitoring with Juniper's tools
+  - Developing and enforcing security policies
+  - SIEM integration with Juniper routers
+# Details about each component
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+## SIEM Deployment
 
-[Link to another page](./another-page.html).
+**Azure Sentinel**: The SIEM solution collects, analyzes, and responds to security data from multiple sources. The deployment includes:
 
-There should be whitespace between paragraphs.
+- **Data Connectors**: Integrates logs from various sources such as Azure services, Office 365, and custom data sources.
+- **Incident Response**: Configures automated response workflows using Azure Logic Apps.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## Threat Intelligence
 
-# Header 1
+**Threat Intelligence Feeds**: Sets up feeds to receive IOCs directly, providing real-time updates on malicious IPs, domains, and file hashes.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+- **Automation**: Implements workflows to ingest and analyze threat intelligence data.
+- **Alerts**: Configures alerts for immediate notification of potential threats.
 
-## Header 2
+## Network Segmentation
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+**Juniper EX2200-C**: Sets up network segmentation to improve security and manage traffic more effectively.
 
-### Header 3
+## Intrusion Detection System (IDS)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+**Snort**: Uses Snort to monitor and analyze network traffic for suspicious activities.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## VPN Configuration
 
-#### Header 4
+**OpenVPN**: Configures and tests VPNs for secure remote access.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## Firewall Rules
 
-##### Header 5
+**Firewall Configuration**: Develops and tests complex firewall rules to protect the network from various threats.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+## Access Control Lists (ACLs)
 
-###### Header 6
+**Traffic Control**: Implements ACLs to control traffic flow and enhance security.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+## Network Monitoring
 
-### There's a horizontal rule below this.
+**Juniper Tools**: Uses Juniper's tools to monitor network performance and detect anomalies.
 
-* * *
+## Security Policies
 
-### Here is an unordered list:
+**Policy Development**: Develops and enforces security policies across the network.
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+## SIEM Integration
 
-### And an ordered list:
+**Integration with Juniper**: Integrates Juniper routers with a SIEM system to centralize security monitoring.
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+### Here is an unordered list of the steps:
 
-### And a nested list:
+*   Deploying Azure Sentinel for SIEM.
+*   Setting up data connectors and integrating logs.
+*   Creating automated incident response workflows.
+*   Setting up and automating threat intelligence feeds.
+*   Building custom dashboards for monitoring.
+*   Configuring Juniper EX2200-C for network segmentation.
+*   Using Snort for intrusion detection.
+*   Setting up OpenVPN for secure remote access.
+*   Developing firewall rules.
+*   Implementing ACLs.
+*   Monitoring network performance with Juniper tools.
+*   Developing and enforcing security policies.
+*   Integrating SIEM with Juniper routers.
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+### And an ordered list of tasks:
 
-### Small image
+1.  Deploy Azure Sentinel.
+1.  Configure data connectors.
+1.  Set up automated response workflows.
+1.  Integrate threat intelligence feeds.
+1.  Develop monitoring dashboards.
+1.  Configure network segmentation with Juniper EX2200-C.
+1.  Implement Snort for IDS.
+1.  Set up OpenVPN.
+1.  Develop and test firewall rules.
+1.  Implement ACLs.
+1.  Monitor network performance with Juniper tools.
+1.  Develop and enforce security policies.
+1.  Integrate SIEM with Juniper routers.
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+### Here are some examples of tools used:
 
-### Large image
+- Azure Sentinel
+- Azure Logic Apps
+- Azure Log Analytics
+- Juniper EX2200-C
+- Snort
+- OpenVPN
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+### Conclusion
+
+This project demonstrates my ability to deploy and manage a SOC using Microsoft Azure and Juniper EX2200-C switch. By integrating a SIEM system, setting up a threat intelligence feed, implementing network segmentation, and using advanced security tools, I can effectively monitor, detect, and respond to security threats in real-time.
+
+| Component          | Description                               |
+|:-------------------|:------------------------------------------|
+| SIEM Deployment    | Using Azure Sentinel                      |
+| Threat Intelligence| Real-time IOC updates and analysis        |
+| Network Segmentation| Using Juniper EX2200-C switch            |
+| Intrusion Detection| Snort for traffic monitoring              |
+| VPN Configuration  | Secure access with OpenVPN                |
+| Firewall Rules     | Complex firewall configurations           |
+| Access Control Lists| Control traffic flow and enhance security |
+| Network Monitoring | Juniper tools for performance monitoring  |
+| Security Policies  | Development and enforcement               |
+| SIEM Integration   | Centralized monitoring with Juniper routers|
 
 
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
