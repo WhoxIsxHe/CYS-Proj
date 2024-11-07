@@ -6,15 +6,15 @@ This project aims to build a fully operational SOC that leverages the power of A
 
 ## Components of the Project
 
-*Azure Sentinel**: The SIEM solution collects, analyzes, and responds to security data from multiple sources.
+*Azure Sentinel*: The SIEM solution collects, analyzes, and responds to security data from multiple sources.
 
-*Data Connectors**: Integrates logs from various sources such as Azure services, Office 365, and custom data sources.
+*Data Connectors*: Integrates logs from various sources such as Azure services, Office 365, and custom data sources.
 
-*Incident Response**: Configures automated response workflows using Azure Logic Apps.
+*Incident Response*: Configures automated response workflows using Azure Logic Apps.
 
 ## Threat Intelligence
 
-*Threat Intelligence Feeds**: Sets up feeds to receive IOCs directly, providing real-time updates on malicious IPs, domains, and file hashes.
+*Threat Intelligence Feeds*: Sets up feeds to receive IOCs directly, providing real-time updates on malicious IPs, domains, and file hashes.
 
 *Automation**: Implements workflows to ingest and analyze threat intelligence data.
 
@@ -36,30 +36,30 @@ This project aims to build a fully operational SOC that leverages the power of A
 
 ## Firewall Rules
 
-**Firewall Configuration*: Develops and tests complex firewall rules to protect the network from various threats.
+*Firewall Configuration*: Develops and tests complex firewall rules to protect the network from various threats.
 
 ## Access Control Lists (ACLs)
 
-**Traffic Control*: Implements ACLs to control traffic flow and enhance security.
+*Traffic Control*: Implements ACLs to control traffic flow and enhance security.
 
 ## Network Monitoring
 
-**Juniper Tools*: Uses Juniper's tools to monitor network performance and detect anomalies.
+*Juniper Tools*: Uses Juniper's tools to monitor network performance and detect anomalies.
 
 ## Security Policies
 
-**Policy Development*: Develops and enforces security policies across the network.
+*Policy Development*: Develops and enforces security policies across the network.
 
 ## SIEM Integration
 
-**Integration with Juniper*: Integrates Juniper routers with a SIEM system to centralize security monitoring.
+*Integration with Juniper*: Integrates Juniper routers with a SIEM system to centralize security monitoring.
 
 ## Deauthentication Attack Simulation
 
-**Flipper Zero*: Simulates a deauthentication attack using Flipper Zero to understand potential vulnerabilities and test network defenses.
+*Flipper Zero*: Simulates a deauthentication attack using Flipper Zero to understand potential vulnerabilities and test network defenses.
 
 ## Detailed Implementation
-*SIEM Deployment:**
+*SIEM Deployment:*
 Using Azure Sentinel, I set up a comprehensive SIEM solution that aggregates logs from various sources such as Azure services and Office 365. Automated incident response workflows are configured using Azure Logic Apps.
 
 [Screenshot 1: Azure Sentinel Dashboard]
