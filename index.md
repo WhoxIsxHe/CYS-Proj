@@ -28,11 +28,11 @@ This project aims to build a fully operational SOC that leverages the power of A
 
 ## Intrusion Detection System (IDS)
 
-**Snort*: Uses Snort to monitor and analyze network traffic for suspicious activities.
+*Snort*: Uses Snort to monitor and analyze network traffic for suspicious activities.
 
 ## VPN Configuration
 
-**OpenVPN*: Configures and tests VPNs for secure remote access.
+*OpenVPN*: Configures and tests VPNs for secure remote access.
 
 ## Firewall Rules
 
