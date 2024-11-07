@@ -58,7 +58,7 @@ This project aims to build a fully operational SOC that leverages the power of A
 
 *Flipper Zero*: Simulates a deauthentication attack using Flipper Zero to understand potential vulnerabilities and test network defenses.
 
-## *{Detailed Implementation}*
+## *Detailed Implementation*
 Using Azure Sentinel, I set up a comprehensive SIEM solution that aggregates logs from various sources such as Azure services and Office 365. Automated incident response workflows are configured using Azure Logic Apps.
 
 [Screenshot 1: Azure Sentinel Dashboard]
@@ -73,7 +73,7 @@ The network is segmented using Juniper EX2200-C to create VLANs, improving secur
 
 [Video 1: VLAN Configuration on Juniper EX2200-C]
 
-## *[Intrusion Detection System (IDS)]*
+## *[Intrusion Detection System]*
 Snort is deployed to monitor network traffic and detect suspicious activities. This ensures real-time analysis and prompt response to potential threats.
 
 [Screenshot 3: Snort IDS Alerts]
