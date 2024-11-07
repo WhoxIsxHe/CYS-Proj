@@ -7,10 +7,11 @@ SOC:
   - Intrusion Detection System (IDS) using Snort
   - VPN configuration using OpenVPN
   - Developing and testing firewall rules
-  - Implementing Access ControlLists (ACLs)
+  - Implementing Access Control Lists (ACLs)
   - Network monitoring with Juniper's tools
   - Developing and enforcing security policies
   - SIEM integration with Juniper routers
+  - Simulating a deauthentication attack with Flipper Zero
 # Details about each component
 
 ## SIEM Deployment
@@ -59,37 +60,26 @@ SOC:
 
 **Integration with Juniper**: Integrates Juniper routers with a SIEM system to centralize security monitoring.
 
-### Here is an unordered list of the steps:
+## Deauthentication Attack Simulation
 
-*   Deploying Azure Sentinel for SIEM.
-*   Setting up data connectors and integrating logs.
-*   Creating automated incident response workflows.
-*   Setting up and automating threat intelligence feeds.
-*   Building custom dashboards for monitoring.
-*   Configuring Juniper EX2200-C for network segmentation.
-*   Using Snort for intrusion detection.
-*   Setting up OpenVPN for secure remote access.
-*   Developing firewall rules.
-*   Implementing ACLs.
-*   Monitoring network performance with Juniper tools.
-*   Developing and enforcing security policies.
-*   Integrating SIEM with Juniper routers.
+**Flipper Zero**: Simulates a deauthentication attack using Flipper Zero to understand potential vulnerabilities and test network defenses.
 
-### And an ordered list of tasks:
+### An ordered list of tasks:
 
 1.  Deploy Azure Sentinel.
-1.  Configure data connectors.
-1.  Set up automated response workflows.
-1.  Integrate threat intelligence feeds.
-1.  Develop monitoring dashboards.
-1.  Configure network segmentation with Juniper EX2200-C.
-1.  Implement Snort for IDS.
-1.  Set up OpenVPN.
-1.  Develop and test firewall rules.
-1.  Implement ACLs.
-1.  Monitor network performance with Juniper tools.
-1.  Develop and enforce security policies.
-1.  Integrate SIEM with Juniper routers.
+2.  Configure data connectors.
+3.  Set up automated response workflows.
+4.  Integrate threat intelligence feeds.
+5.  Develop monitoring dashboards.
+6.  Configure network segmentation with Juniper EX2200-C.
+7.  Implement Snort for IDS.
+8.  Set up OpenVPN.
+9.  Develop and test firewall rules.
+10.  Implement ACLs.
+11.  Monitor network performance with Juniper tools.
+12.  Develop and enforce security policies.
+13.  Integrate SIEM with Juniper routers.
+14.  Simulate deauthentication attacks with Flipper Zero.
 
 ### Here are some examples of tools used:
 
@@ -99,22 +89,24 @@ SOC:
 - Juniper EX2200-C
 - Snort
 - OpenVPN
+- Flipper Zero
 
 ### Conclusion
 
-This project demonstrates my ability to deploy and manage a SOC using Microsoft Azure and Juniper EX2200-C switch. By integrating a SIEM system, setting up a threat intelligence feed, implementing network segmentation, and using advanced security tools, I can effectively monitor, detect, and respond to security threats in real-time.
+This project demonstrates my ability to deploy and manage a SOC using Microsoft Azure and Juniper EX2200-C switch. By integrating a SIEM system, setting up a threat intelligence feed, implementing network segmentation, and using advanced security tools, I can effectively monitor, detect, and respond to security threats in real-time. The addition of a deauthentication attack simulation using Flipper Zero highlights my practical skills in identifying and mitigating potential network vulnerabilities.
 
-| Component          | Description                               |
-|:-------------------|:------------------------------------------|
-| SIEM Deployment    | Using Azure Sentinel                      |
-| Threat Intelligence| Real-time IOC updates and analysis        |
-| Network Segmentation| Using Juniper EX2200-C switch            |
-| Intrusion Detection| Snort for traffic monitoring              |
-| VPN Configuration  | Secure access with OpenVPN                |
-| Firewall Rules     | Complex firewall configurations           |
-| Access Control Lists| Control traffic flow and enhance security |
-| Network Monitoring | Juniper tools for performance monitoring  |
-| Security Policies  | Development and enforcement               |
-| SIEM Integration   | Centralized monitoring with Juniper routers|
+| Component                   | Description                               |
+|:----------------------------|:------------------------------------------|
+| SIEM Deployment             | Using Azure Sentinel                      |
+| Threat Intelligence         | Real-time IOC updates and analysis        |
+| Network Segmentation        | Using Juniper EX2200-C switch             |
+| Intrusion Detection         | Snort for traffic monitoring              |
+| VPN Configuration           | Secure access with OpenVPN                |
+| Firewall Rules              | Complex firewall configurations           |
+| Access Control Lists        | Control traffic flow and enhance security |
+| Network Monitoring          | Juniper tools for performance monitoring  |
+| Security Policies           | Development and enforcement               |
+| SIEM Integration            | Centralized monitoring with Juniper routers|
+| Deauthentication Simulation | Flipper Zero for vulnerability testing    |
 
 
