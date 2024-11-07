@@ -58,7 +58,7 @@ This project aims to build a fully operational SOC that leverages the power of A
 
 *Flipper Zero*: Simulates a deauthentication attack using Flipper Zero to understand potential vulnerabilities and test network defenses.
 
-## *[Detailed Implementation]:*
+## *{Detailed Implementation}*
 Using Azure Sentinel, I set up a comprehensive SIEM solution that aggregates logs from various sources such as Azure services and Office 365. Automated incident response workflows are configured using Azure Logic Apps.
 
 [Screenshot 1: Azure Sentinel Dashboard]
