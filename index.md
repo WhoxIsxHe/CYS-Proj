@@ -11,7 +11,7 @@ This project aims to build a fully operational SOC that leverages the power of A
 | VPN Configuration           | Secure access with OpenVPN                |
 | Firewall Rules              | Complex firewall configurations           |
 | Access Control Lists        | Control traffic flow and enhance security |
-| Network Monitoring          | Juniper tools for performance monitoring  |
+| Network Monitoring          | Performance monitoring                    |
 | Security Policies           | Development and enforcement               |
 | SIEM Integration            | Centralized monitoring with Juniper router|
 | Deauthentication Simulation | Flipper Zero for vulnerability testing    |
