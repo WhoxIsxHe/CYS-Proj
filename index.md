@@ -6,7 +6,6 @@ This project aims to build a fully operational SOC that leverages the power of A
 |:----------------------------|:------------------------------------------|
 | SIEM Deployment             | Using Azure Sentinel                      |
 | Threat Intelligence         | Real-time IOC updates and analysis        |
-| Network Segmentation        | Using Juniper EX2200-C switch             |
 | Intrusion Detection         | Snort for traffic monitoring              |
 | VPN Configuration           | Secure access with OpenVPN                |
 | Firewall Rules              | Complex firewall configurations           |
