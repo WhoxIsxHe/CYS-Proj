@@ -16,7 +16,7 @@ This project aims to build a fully operational SOC that leverages the power of A
 | SIEM Integration            | Centralized monitoring with Juniper router|
 | Deauthentication Simulation | Flipper Zero for vulnerability testing    |
 
-|# DETAILED.IMPLEMENTATION:| 
+# |DETAILED.IMPLEMENTATION:| 
 
 # [SIEM Deployment]
 *Using Azure Sentinel, I set up a comprehensive SIEM solution that aggregates logs from various sources such as Azure services and Office 365. Automated incident response workflows are configured using Azure Logic Apps.*
