@@ -2,7 +2,7 @@
 # Overview
 This project aims to build a fully operational SOC that leverages the power of Azure and Juniper to enhance cybersecurity capabilities. The project includes deploying a SIEM system, setting up a threat intelligence feed that sends Indicators of Compromise (IOCs) directly, implementing robust network security measures, and simulating a deauthentication attack with a Flipper Zero.
 
-|# [Component]                  |# [Description]                            |
+| [# Component]                  | [# Description]                            |
 |:----------------------------|:------------------------------------------|
 | SIEM Deployment             | Using Azure Sentinel                      |
 | Threat Intelligence         | Real-time IOC updates and analysis        |
